@@ -16,14 +16,14 @@ Table of Contents
 
 
 # Introduction
-The thesis is focused on studying the general problem of anomaly detection, implementing anomaly detection algorithms and applying them on real-world data provided by a private company. Then the thesis proceeds to compare and discuss the results of the various algorithms employed.
+The thesis is focused on studying the general problem of anomaly detection, implementing anomaly detection algorithms and applying them on real-world data provided by a private company. Then the results of the various algorithms employed are compared and discussed.
 
 ## What is anomaly detection
-Given an industrial machine, it is possible to detect deviations in the collected data compared to normal operational models, which could indicate probable machine degradation or imminent malfunction. Anomaly Detection is the term used to refer to this field. 
+Given an industrial machine, it is possible to detect deviations in the collected data which could indicate machine degradation or imminent malfunction. The the goal of Anomaly Detection algorithms is to exactly learn when deviations happen and detect them in real-time. 
 
 These techniques can be a useful tool for optimizing the resilience of industrial processes, for example, by enabling the prediction of necessary maintenance interventions for industrial systems. These techniques not only allow for the precise identification of such deviations, but also enable dynamic responses to the emergence of previously unseen anomalies.
 
-This field has particularly expanded its application prospects in the domain of time series, where data can follow particularly complex patterns. 
+The field has particularly expanded its application prospects in the domain of time series, where data can follow particularly complex patterns. 
 
 # Code
 The [time_series.ipynb](./time_series.ipynb) file provides the code used for the implementation on the first section and the results on different types of unbalanced datasets for the next sections.
@@ -81,7 +81,7 @@ feature_1,feature_2,feature_3,...,feature_n,label
 The ground truth labels in both datasets are used to evaluate the performance metrics of the anomaly detection algorithms.
 
 ## Comments
-Some comments are in Italian since the thesis is for an Italian university.
+Some comments are in Italian since the thesis is written for a Italian university.
 
 # Discussion
 The content of the thesis will be re-adapted in a dedicated blogpost as a educational contribution.
